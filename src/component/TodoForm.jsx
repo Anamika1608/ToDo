@@ -11,7 +11,7 @@ function TodoForm() {
 
     const handleAdd = ()=>{
         if(!todo) return;
-        else addTodo(todo)
+        else addTodo(todo);
     }
     
     return (
