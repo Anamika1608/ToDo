@@ -5,7 +5,8 @@ import  TodoForm  from "./component/todoForm";
 import  TodoItem  from "./component/TodoItem";
 
 function App() {
-
+console.log(import.meta.env.VITE_APPWRITE_URL);
+  
   const [todos,setTodos] = useState([]);
   
   const addTodo = (task)=>{
